@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,400,300);
+/* line 3, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+html {
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: normal;
+  color: #3d464d;
+  background-color: #ffffff;
+  background-image: url(../alumBg.png);
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  overflow: hidden-x;
+  text-align: center; }
+
+/* line 16, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+html:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  margin-top: 3rem; }
+
+/* line 24, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+body {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 29, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+#logo {
+  width: 90%;
+  height: auto; }
+
+/* line 33, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #c0c8c9;
+  background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);
+  margin: 30px; }
+
+/* line 40, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+h1 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -.05em; }
+
+/* line 47, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0.8rem; }
+
+/* line 55, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+form input {
+  font-size: 1.5rem; }
+  /* line 57, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  form input:focus {
+    outline: none; }
+
+/* line 60, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+#email {
+  height: 35px;
+  width: 355px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #f3a10b;
+  font-weight: 400; }
+  /* line 67, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #email::-webkit-input-placeholder {
+    color: #2e2e2e; }
+  /* line 69, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #email:-moz-placeholder, #email textarea:-moz-placeholder {
+    color: #2e2e2e; }
+  /* line 71, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #emailinput.placeholder-text, #email textarea.placeholder-text {
+    color: #2e2e2e; }
+
+/* line 74, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+#submit {
+  border: 2px solid #f3a10b;
+  line-height: 1.375;
+  font-weight: 400;
+  color: #f3a10b;
+  cursor: pointer;
+  -webkit-animation: hue 60s infinite linear;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-left: 2rem;
+  margin-top: .5rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem; }
+  /* line 86, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #submit:focus {
+    outline: none; }
+
+/* line 89, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+footer {
+  margin-top: 10rem; }
+  /* line 91, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  footer .inner svg {
+    width: 35px;
+    height: 35px;
+    margin: 15px; }
+  /* line 95, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  footer a:hover {
+    opacity: 0.7; }
+
+@media (max-width: 700px) {
+  /* line 100, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  html {
+    font-size: 10px; }
+  /* line 102, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #logo {
+    width: 82%; }
+  /* line 105, /Users/bdobry/Desktop/autoscanner/as landingPage/sass/style.sass */
+  #email {
+    width: 200px; } }
+
+/*# sourceMappingURL=style.css.map */
