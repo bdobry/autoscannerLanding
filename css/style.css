@@ -46,9 +46,9 @@ footer a:hover { opacity: 0.7; }
   #logo { width: 82%; }
   #email { width: 200px; } }
 
-cookie-law-info-bar { width: 100%; position: fixed; bottom: 0px; background: rgba(46, 46, 46, 0.25) none repeat scroll 0px 0px; left: 0px; }
+.cookie-law-info-bar { width: 100%; position: fixed; bottom: 0px; background: rgba(46, 46, 46, 0.25) none repeat scroll 0px 0px; left: 0px; }
 
-cookie-law-info-bar p { text-align: center; padding: 10px; }
+.cookie-law-info-bar p { text-align: center; padding: 10px; }
 
 .error, .success { color: #FFF; margin-right: 17%; padding: 3px; margin-left: 17%; font-size: 13px; }
 
