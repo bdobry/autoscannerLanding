@@ -5,18 +5,18 @@
     src: url('../font/roboto-regular-webfont.woff2') format('woff2')
     src: url('../font/roboto-regular-webfont.woff') format('woff')
     src: url('../font/roboto-regular-webfont.ttf') format('truetype')
-    font-weight: normal
-    font-style: normal
+    font-weight: 400
+    font-style: 400
 
 @font-face
     font-family: 'roboto'
-    src: url('../font/roboto-thin-webfont.eot')
-    src: url('../font/roboto-thin-webfont.eot?#iefix') format('embedded-opentype')
-    src: url('../font/roboto-thin-webfont.woff2') format('woff2')
-    src: url('../font/roboto-thin-webfont.woff') format('woff')
-    src: url('../font/roboto-thin-webfont.ttf') format('truetype')
-    font-weight: normal
-    font-style: normal
+    src: url('../font/roboto-light-webfont.eot')
+    src: url('../font/roboto-light-webfont.eot?#iefix') format('embedded-opentype')
+    src: url('../font/roboto-light-webfont.woff2') format('woff2')
+    src: url('../font/roboto-light-webfont.woff') format('woff')
+    src: url('../font/roboto-light-webfont.ttf') format('truetype')
+    font-weight: 100
+    font-style: 100
 
 html
     font-size: 12px
@@ -42,7 +42,10 @@ html:before
 body
     display: inline-block
     vertical-align: middle
-        
+    font-size: 13px
+
+header
+    max-width: 69em
 
 #logo
     width: 90%
@@ -83,12 +86,13 @@ form
     border-bottom: 3px solid #f3a10b
     font-weight: 400
     &::-webkit-input-placeholder 
-        color:#2e2e2e
+        color: #2e2e2e
     &:-moz-placeholder, textarea:-moz-placeholder 
-        color:#2e2e2e
-    &input.placeholder-text, textarea.placeholder-text
-        color:#2e2e2e
-            
+        color: #2e2e2e
+    input.placeholder-text, 
+    textarea.placeholder-text
+        color: #2e2e2e
+
 #submit
     border: 2px solid #f3a10b
     line-height: 1.375
@@ -103,6 +107,10 @@ form
     padding: .7rem 1.5rem .7rem 1.5rem
     &:focus
         outline: none
+    &:hover
+        border-color: rgba(0,0,0,0)
+        letter-spacing: 1px
+        padding-left: .6rem
 
 footer
     margin-top: 10rem
@@ -122,3 +130,26 @@ footer
         
     #email
         width: 200px
+
+cookie-law-info-bar
+    width: 100%
+    position: fixed
+    bottom: 0px
+    background: rgba(46, 46, 46, 0.25) none repeat scroll 0px 0px
+    left: 0px
+    p
+        text-align: center
+        padding: 10px
+.error,
+.success
+    color: #FFF
+    margin-right: 17%
+    padding: 3px
+    margin-left: 17%
+    font-size: 13px
+
+.error 
+    background-color: rgba(255, 0, 0, 0.67)
+    
+.success
+    background-color: rgba(28, 143, 21, 0.7)
